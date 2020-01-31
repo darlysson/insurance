@@ -1,0 +1,17 @@
+@media screen and (max-width: 24rem) {
+  h1 {
+    color: #F00; } }
+@media screen and (min-width: 90rem) {
+  h1 {
+    color: #2b272f;
+    font-family: 'Limelight', cursive; } }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0; }
+  * .attribution {
+    font-size: 12px;
+    text-align: center; }
+  * .attribution a {
+    color: #3e52a3; }
