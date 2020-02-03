@@ -1,8 +1,8 @@
 @import "variables/variables";
 
-@media screen and (max-width: 24rem) {
+@media screen and (max-width: 26rem) {
+
   main {
-    // margin: 15px;
 
     header {
       margin-bottom: 20px;
@@ -32,6 +32,7 @@
     section#main {
       background-color: $primary-color;
       text-align: center;
+      height: 1000px;
 
       img.intro-left {
         float: left;
@@ -40,13 +41,12 @@
 
       img.main-image {
         width: 100%;
-        padding: 0;
       }
 
       h1 {
         font-family: "DM Serif Display", sans-serif;
         font-weight: 400;
-        font-size: 45px;
+        font-size: 42px;
         color: #fff;
         padding: 0px 30px;
         margin-top: 80px;
@@ -67,14 +67,16 @@
         height: 45px;
         color: #fff;
         border: 1.75px solid #fff;
-        margin: 38px 0px 80px;
+        margin: 38px 0px 80px -75px;
         background-color: $primary-color;
         font-weight: bold;
+        position: absolute;
       }
 
       img.intro-right {
-        float: left;
-        position: absolute;
+        float: right;
+        position: relative;
+        margin-top: 30px;
       }
     }
   }
