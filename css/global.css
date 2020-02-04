@@ -10,7 +10,7 @@
   }
   main header nav ul li h1 {
     color: #2d2640;
-    font-family: "DM Serif Display";
+    font-family: "Limelight", cursive;
     font-size: 30px;
     margin-left: 15px;
   }
@@ -55,11 +55,16 @@
     background-color: #2d2640;
     font-weight: bold;
     position: absolute;
+    cursor: pointer;
   }
   main section#main img.intro-right {
     float: right;
     position: relative;
     margin-top: 30px;
+  }
+  main section#cards {
+    margin-top: 80px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 90rem) {
