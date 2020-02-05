@@ -73,11 +73,9 @@
     margin-left: 130px;
   }
   main section#cards h1.articles-title {
-    margin-left: 80px;
     margin-top: 40px;
     font-size: 35px;
     margin-bottom: 70px;
-    position: absolute;
     -webkit-margin-start: 50px;
   }
   main section#cards article {
@@ -86,10 +84,6 @@
   main section#cards article img {
     width: 25%;
     margin-bottom: 30px;
-  }
-  main section#cards article img#snappy-process {
-    margin-top: 150px;
-    margin-left: 100px;
   }
   main section#cards article h1 {
     font-size: 25px;
