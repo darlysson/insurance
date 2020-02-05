@@ -65,7 +65,8 @@
         height: 45px;
         color: #fff;
         border: 1.75px solid #fff;
-        margin: 38px 0px 80px -75px;
+        margin: 38px 0px 80px -10px;
+        -webkit-margin-start: -75px;
         background-color: $primary-color;
         font-weight: bold;
         position: absolute;
@@ -86,7 +87,7 @@
 
       hr {
         width: 35%;
-        margin-left: 135px;
+        margin-left: 130px;
       }
 
       h1.articles-title {
@@ -95,6 +96,7 @@
         font-size: 35px;
         margin-bottom: 70px;
         position: absolute;
+        -webkit-margin-start: 70px; //Chrome setting
       }
 
       article {
