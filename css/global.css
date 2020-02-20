@@ -65,43 +65,66 @@
   }
   main section.main-section img.intro-right {
     float: right;
-    position: relative;
     margin-top: 30px;
   }
-  main section#cards {
+  main section.cards {
     margin-top: 150px;
     margin-bottom: 150px;
     text-align: center;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
-  main section#cards hr {
+  main section.cards hr {
     width: 35%;
     margin-bottom: 40px;
+    margin-left: 130px;
   }
-  main section#cards h1.articles-title {
+  main section.cards h1.articles-title {
     font-size: 35px;
     margin-bottom: 70px;
   }
-  main section#cards article {
+  main section.cards article {
     margin: 0 25px;
   }
-  main section#cards article img {
+  main section.cards article img {
     width: 25%;
     margin-bottom: 30px;
   }
-  main section#cards article h1 {
+  main section.cards article h1 {
     font-size: 25px;
     margin-bottom: 15px;
   }
-  main section#cards article p {
+  main section.cards article p {
     font-family: "Karla", sans-serif;
     margin-bottom: 60px;
     color: #837d87;
     line-height: 28px;
+  }
+  main section.find-more {
+    background-color: #2d2640;
+    color: #fff;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  main section.find-more h1 {
+    font-size: 42px;
+    padding: 0 15px;
+  }
+  main section.find-more button {
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    border: 1.75px solid #fff;
+    margin: 40px 0 0 10px;
+    text-transform: uppercase;
+    background-color: #2d2640;
+    font-weight: bold;
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 90rem) {
