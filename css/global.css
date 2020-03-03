@@ -26,6 +26,9 @@
     background-color: #2d2640;
     text-align: center;
     height: 1000px;
+    background-image: url(../../assets/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
   }
   main section.main-section img.intro-left {
     float: left;
@@ -112,7 +115,7 @@
     background-position: right top;
   }
   main section.find-more h1 {
-    font-size: 42px;
+    font-size: 35px;
     padding: 0 15px;
   }
   main section.find-more button {
@@ -125,6 +128,77 @@
     background-color: #2d2640;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  footer {
+    background-image: url(../../assets/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #fafafa;
+    padding-top: 75px;
+  }
+  footer h1 {
+    text-align: center;
+    color: #2d2640;
+    font-family: "Limelight", cursive;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  footer .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    margin: 25px 0 0 30px;
+  }
+  footer .social-icons .icon {
+    margin-right: 20px;
+  }
+  footer hr {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 37px;
+  }
+  footer article {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  footer article ul {
+    list-style: none;
+  }
+  footer article ul .list-title {
+    color: #837d87;
+    margin-bottom: 40px;
+  }
+  footer article ul li {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+  }
+  footer article ul li a {
+    text-decoration: none;
+    color: #2d2640;
+  }
+  footer small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px 0 10px;
+    background-color: #3e52a3;
+    color: #fafafa;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 90rem) {
