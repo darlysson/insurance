@@ -24885,6 +24885,10 @@ video {
   --tw-ring-opacity: 1;
 }
 
+.fill-0{
+  fill: hover;
+}
+
 .fill-current{
   fill: currentColor;
 }
@@ -56390,6 +56394,10 @@ video {
     --tw-ring-opacity: 1;
   }
 
+  .sm\:fill-0{
+    fill: hover;
+  }
+
   .sm\:fill-current{
     fill: currentColor;
   }
@@ -87828,6 +87836,10 @@ video {
 
   .md\:focus\:ring-opacity-100:focus{
     --tw-ring-opacity: 1;
+  }
+
+  .md\:fill-0{
+    fill: hover;
   }
 
   .md\:fill-current{
@@ -119270,6 +119282,10 @@ video {
     --tw-ring-opacity: 1;
   }
 
+  .lg\:fill-0{
+    fill: hover;
+  }
+
   .lg\:fill-current{
     fill: currentColor;
   }
@@ -150710,6 +150726,10 @@ video {
     --tw-ring-opacity: 1;
   }
 
+  .xl\:fill-0{
+    fill: hover;
+  }
+
   .xl\:fill-current{
     fill: currentColor;
   }
@@ -182148,6 +182168,10 @@ video {
 
   .\32xl\:focus\:ring-opacity-100:focus{
     --tw-ring-opacity: 1;
+  }
+
+  .\32xl\:fill-0{
+    fill: hover;
   }
 
   .\32xl\:fill-current{

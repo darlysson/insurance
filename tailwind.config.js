@@ -24,7 +24,8 @@ module.exports = {
       },
       width: {
         s13: '13%'
-      }
+      },
+      fill: ['hover'],
     },
   },
   variants: {
