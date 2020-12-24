@@ -18,6 +18,12 @@ module.exports = {
       fontFamily: {
         body: ['Karla'],
         heading: ['DM Serif Display']
+      },
+      maxWidth: {
+        l: '34rem'
+      },
+      width: {
+        s13: '13%'
       }
     },
   },
