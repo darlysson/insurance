@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700|Limelight&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="public/styles.css">
-  <title>Insure Landing Page</title>
+  <title>Insurance Landing Page</title>
 </head>
 
 <body>
@@ -45,11 +45,15 @@
     </nav>
   </header>
 
-  <main class="">
-    <section class="lg:hidden">
+  <main>
+    <section class="md:hidden">
       <hr>
-      <img class="main-image" src="src/assets/images/image-intro-mobile.jpg" alt="Main image">
+      <img class="main-image w-full" src="src/assets/images/image-intro-mobile.jpg" alt="Main image">
     </section>
+
+    <div class="hidden md:block lg:hidden">
+      <img class="main-image md:w-full" src="src/assets/images/image-intro-desktop.jpg" alt="Main image">
+    </div>
 
     <section class="relative bg-violet-dark py-20 lg:grid grid-cols-2 lg:px-48 lg:py-36">
       <div class="hidden lg:block absolute -bottom-72">
@@ -76,9 +80,10 @@
           </div>
 
           <div>
-            <button
-              class="font-body border-white border-2 font-semibold uppercase px-7 py-2 transition hover:bg-gray-veryLightGray hover:text-violet-dark">View
-              plans</button>
+            <button class="font-body border-white border-2 font-semibold uppercase px-7 py-2 transition 
+              hover:bg-gray-veryLightGray hover:text-violet-dark">
+              View plans
+            </button>
           </div>
         </div>
 
