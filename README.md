@@ -1,7 +1,5 @@
 # Hi 😃 #
 
-## This is a project I created in order to get some skills on ## 
-[Named Link](https://tailwindcss.com/ "Tailwind CSS"). 
+## This is a project I created in order to get some skills on <https://tailwindcss.com/>
 
-## The landing page built can be found: ## 
-[Named Link](https://darlysson.github.io/insurance/ "HERE").
+## The landing page built can be found at: https://darlysson.github.io/insurance/ ## 
